@@ -22,3 +22,17 @@
 		display: none;
 	}
 }
+
+.my-breakpoint.ui-grid-b .ui-block-a {
+	background-color: #56c3e6;
+}
+
+.my-breakpoint.ui-grid-b .ui-block-c {
+	background-color: #555555;
+	color: #dddddd;
+}
+
+.my-breakpoint.ui-grid-b .ui-block-b {
+	background-color: #aaaaaa;
+	color: #333333;
+}
