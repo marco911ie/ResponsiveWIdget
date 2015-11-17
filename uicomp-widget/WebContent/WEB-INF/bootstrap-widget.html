@@ -8,8 +8,17 @@
 		<h1>with Bootstrap</h1>
 	</div>
 	<div class='row'>
-		<div class='col-xs-12 col-md-4'>Block A</div>
-		<div class='col-xs-12 col-md-4'>Block B</div>
-		<div class='col-xs-12 col-md-4'>Block C</div>
+		<div class='col-xs-12 col-md-8'>
+			Block A
+			<p>I always appear</p>
+		</div>
+		<div class='col-xs-12 hidden-lg'>
+			Block B
+			<p>I appear only for smartphone</p>
+		</div>
+		<div class='visible-lg col-md-4'>
+			Block C
+			<p>I appear only for desktop</p>
+		</div>
 	</div>
 </div>
