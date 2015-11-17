@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Widget Responsive</title>
+<meta name="description" content="Test Component Widget Responsive">
+<meta name="author" content="Marco Buratto">
+
+<script src="http://localhost:8082/uicomp-widget/js/getwidget3.js"></script>
+
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body style="padding: 7px;">
+	<h1>Widget Responsive</h1>
+
+	<div id="containerWidgetJqm"
+		style="border-style: solid; border-width: 1"></div>
+	<br />
+	<br />
+	<div id="containerWidgetBootstrap"
+		style="border-style: solid; border-width: 1"></div>
+	<script type="text/javascript">
+		JQMWidget.create("containerWidgetJqm");
+		BootstrapWidget.create("containerWidgetBootstrap");
+	</script>
+</body>
+</html>

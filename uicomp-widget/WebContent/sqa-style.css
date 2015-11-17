@@ -1,0 +1,107 @@
+.sqa-hide {
+	visibility: hidden;
+}
+
+.sqa-remove {
+	display: none;
+}
+
+.sqa-text-center {
+	text-align: center;
+}
+
+#sqa-insertion-point {
+	display: inline-block;
+}
+
+.sqa-main {
+	background-color: #BBBBBB;
+	max-width: 400px;
+	min-width: 320px;
+	position: relative;
+}
+
+.sqa-main > .sqa-main-header {
+	background-color: #999999;
+	padding: 10px 0;
+	
+}
+
+.sqa-main > .sqa-main-header span {
+	font-size: 150%;
+}
+
+.sqa-main > .sqa-main-header a {
+	padding-right: 5px;
+	float: right;
+	vertical-align: middle;
+}
+
+.sqa-timeline {
+	margin: 0 5px;
+	height: 8px;
+	background-color: green;
+	position: relative;
+}
+
+.sqa-timeline > .sqa-timeline-button {
+	position: absolute;
+	background-color: red;
+	width: 3px;
+	height: 100%;
+	/*border: 1px solid #999999;*/
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.sqa-main .sqa-comment-holder-div {
+	padding: 5px;
+	max-height: 500px;
+    overflow-y: auto;
+}
+
+.sqa-main .sqa-comment-div {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.sqa-main .sqa-comment-div .sqa-comment-text {
+	background-color: #CCCCCC;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.sqa-main .sqa-comment-div + .sqa-comment-div{
+	margin-top: 5px;
+}
+
+
+.sqa-main .sqa-comment-div .sqa-comment-metadata { 
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.sqa-comment-reply-div {
+	border: 1px solid black;
+	background-color: #777799;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.sqa-main .sqa-comment-div .sqa-comment-metadata span + span{
+	/*margin-left: 10px; */
+} 
+
+.sqa-new-comment-div {
+	border: 1px solid black;
+	background-color: #EEEEEE;
+	margin: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	z-index: 999;
+}
+

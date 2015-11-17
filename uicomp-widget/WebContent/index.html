@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Test</title>
+</head>
+<body>
+ Cool
+ <div id="insert"></div>
+ <script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        document.getElementById("insert").innerHTML = xhttp.responseText;
+      }
+    }
+    xhttp.open("GET", "sqa/test", true);
+    xhttp.setRequestHeader("Accept", "application/json");
+ 	xhttp.send();
+ </script>
+</body>
+</html>
