@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 5px;
+}
+
+div {
+	padding: 7px;
+}
+
+header {
+	background-color: #d8d1d1;
+	color: navy;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
