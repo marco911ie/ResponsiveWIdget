@@ -1,15 +1,19 @@
 @CHARSET "UTF-8";
 
-.ui-block-a {
+div[data-role=header], .div-style-a, .div-style-b, .div-style-c {
+	text-align: center;
+}
+
+.div-style-a {
 	background-color: #56c3e6;
 }
 
-.ui-block-b {
+.div-style-b {
 	background-color: #aaaaaa;
 	color: #333333;
 }
 
-.ui-block-c {
+.div-style-c {
 	background-color: #555555;
 	color: #dddddd;
 }

@@ -4,24 +4,24 @@
 	crossorigin='anonymous'>
 
 <link rel='stylesheet'
-	href='http://localhost:8082/uicomp-widget/css/colors.css'>	
+	href='http://localhost:8082/uicomp-widget/css/general-style.css'>	
 
 <div class='container-fluid'>
 	<div class='row' data-role='header'>
-		<h1>with Bootstrap</h1>
+		<h1>Bootstrap Widget</h1>
 	</div>
 	<div class='row'>
-		<div class='col-xs-12 col-md-8 ui-block-a'>
+		<div class='col-xs-12 col-md-8 div-style-a'>
 			Block A
-			<p>I always appear</p>
+			<p>This div appear for all devices</p>
 		</div>
-		<div class='col-xs-12 hidden-md hidden-lg ui-block-b'>
+		<div class='col-xs-12 hidden-md hidden-lg div-style-b'>
 			Block B
-			<p>I appear only for smartphone</p>
+			<p>This div appear for the devices with screen width &lt; 992</p>
 		</div>
-		<div class='visible-lg visible-md col-md-4 ui-block-c'>
+		<div class='visible-lg visible-md col-md-4 div-style-c'>
 			Block C
-			<p>I appear only for desktop</p>
+			<p>This div appear for the devices with screen width &gt;= 992</p>
 		</div>
 	</div>
 </div>

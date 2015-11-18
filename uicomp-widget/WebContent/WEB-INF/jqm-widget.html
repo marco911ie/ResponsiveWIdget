@@ -2,35 +2,31 @@
 <link rel='stylesheet'
 	href='//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css'>
 <link rel='stylesheet'
-	href='http://localhost:8082/uicomp-widget/css/widget.css'>
+	href='http://localhost:8082/uicomp-widget/css/jqm-widget-style.css'>
 <link rel='stylesheet'
-	href='http://localhost:8082/uicomp-widget/css/colors.css'>
+	href='http://localhost:8082/uicomp-widget/css/general-style.css'>
 
 <div role='main' class='ui-content'>
 	<div data-role='header'>
-		<h1>with JQuery Mobile</h1>
+		<h1>JQuery Mobile Widget</h1>
 	</div>
 	<div class='ui-grid-b my-breakpoint'>
-		<div class='ui-block-a'>
-			<div class='ui-body ui-body-d'>Block A
-			<p>
-				I always appear 
-			</p>
+		<div class='ui-block-a div-style-a'>
+			<div class='ui-body ui-body-d'>
+				Block A
+				<p>This div appear for all devices</p>
 			</div>
 		</div>
-		<div class='ui-block-b'>
-			<div class='ui-body ui-body-d'>Block B
-			<p>
-				I appear only for smartphone 
-			</p>
+		<div class='ui-block-b div-style-b'>
+			<div class='ui-body ui-body-d'>
+				Block B
+				<p>This div appear for the devices with screen width &lt; 992</p>
 			</div>
 		</div>
-		<div class='ui-block-c'>
-			<div class='ui-body ui-body-d'>Block C
-			<p>
-				I appear only for desktop
-			</p>
-			
+		<div class='ui-block-c div-style-c'>
+			<div class='ui-body ui-body-d'>
+				Block C
+				<p>This div appear for the devices with screen width &gt;= 992</p>
 			</div>
 		</div>
 	</div>
